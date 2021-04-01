@@ -835,6 +835,7 @@ table.alt tbody tr td {
   .testimonials > :nth-child(3n) {
     width: calc(33.3333333333% + -0.5rem); }
   .testimonials .content {
+    align-items: center;
     border-radius: 4px;
     height: 100%;
     padding: 3rem; }
