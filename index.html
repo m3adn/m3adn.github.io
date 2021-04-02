@@ -22,7 +22,7 @@
 			  
 			.white {
 				color: white;
-				flex-wrap: wrap;
+				display: flex;
 				align-items: center; 
                 justify-content: center; };
 			
@@ -257,7 +257,7 @@
 						&copy; ePro site released under MIT licence. An <a href="https://utad.pt">UTAD </a> production.
 					</div>
 					<div class="whatch">
-						<a class="dateandtime"><script type="text/javascript">
+						<center><a class="dateandtime"><script type="text/javascript">
 							var current = new Date();
 							y = current.getFullYear().toString();
 							m = "0" + (current.getMonth() + 1).toString();
@@ -266,7 +266,7 @@
 							d = d.slice(d.length-2);
 							document.write("<span class='white'>" , y + "-" + m + "-" + d ,"</span>");
 						  // Stop hiding script -->
-						  </script></a>
+						  </script></a></center>
 					</div>
 				</div>
 			</footer>
