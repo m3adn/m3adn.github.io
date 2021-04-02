@@ -22,23 +22,20 @@
 		</style>
 			
 	</head>
-	<body>
-		<div class="preloader">
-			<div class="preloader__wrapper">
-			  <div class="preloader__spiner spin-1"></div>
-			  <div class="preloader__spiner spin-2"></div>
-			  <div class="preloader__spiner spin-3"></div>
-			  <div class="preloader__spiner spin-4"></div>
-			  
-			  <div class="preloader__spiner-mask"></div>
-			  <div class="preloader__dots">
-				<span class="preloader__dot"></span>
-			  </div>
-			</div>
-		
-		  </div> <!-- preloader -->
-	
 	<body class="is-preload">
+
+		<!-- início do preloader -->
+		<div id="preloader">
+			<div class="inner">
+			   <!-- HTML DA ANIMAÇÃO MUITO LOUCA DO SEU PRELOADER! -->
+			   <div class="bolas">
+				  <div></div>
+				  <div></div>
+				  <div></div>                    
+			   </div>
+			</div>
+		</div>
+		<!-- fim do preloader --> 
 
 		<!-- Header -->
 			<header id="header">
@@ -264,25 +261,27 @@
 			</footer>
 
 		<!-- Scripts -->
+		    <script src="assets/js/preloader.js"></script>
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			
 
 			
 <script type="text/javascript">
-	  var current = new Date();
-	  y = current.getFullYear().toString();
-	  m = "0" + (current.getMonth() + 1).toString();
-	  m = m.slice(m.length - 2);
-	  d = "0" + current.getDate().toString();
-	  d = d.slice(d.length-2);
-	  document.write( y + "-" + m + "-" + d);
-	// Stop hiding script -->
-	</script>
-	
+<!-- Hide script for old browsers
+  var current = new Date();
+  y = current.getFullYear().toString();
+  m = "0" + (current.getMonth() + 1).toString();
+  m = m.slice(m.length - 2);
+  d = "0" + current.getDate().toString();
+  d = d.slice(d.length-2);
+  document.write( y + "-" + m + "-" + d);
+// Stop hiding script -->
+</script>
+
 
 	</body>
-</body>
 </html>
