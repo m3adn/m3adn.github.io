@@ -846,8 +846,7 @@ table.alt tbody tr td {
       display: flex;
       -moz-align-items: center;
       -webkit-align-items: center;
-      -ms-align-items: center;
-      align-items: center; }
+      -ms-align-items: center;}
       .testimonials .content .author blockquote {
         margin: 0; }
       .testimonials .content .author .image {
