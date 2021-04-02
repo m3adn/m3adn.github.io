@@ -49,9 +49,7 @@ section, summary, time, mark, audio, video {
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
-  display: flex;
-  align-items: center;
-  justify-content: center; }
+ }
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -812,8 +810,7 @@ table.alt tbody tr td {
   -webkit-align-items: -webkit-stretch;
   -ms-align-items: -ms-stretch;
   align-items: center; 
-  top: 50%;
-  left: 50%;}
+  justify-content: center;}
   .testimonials > * {
     -moz-flex-shrink: 1;
     -webkit-flex-shrink: 1;
