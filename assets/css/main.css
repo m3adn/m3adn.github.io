@@ -808,7 +808,7 @@ table.alt tbody tr td {
   -moz-align-items: -moz-stretch;
   -webkit-align-items: -webkit-stretch;
   -ms-align-items: -ms-stretch;
-  align-items: stretch; }
+  align-items: center; }
   .testimonials > * {
     -moz-flex-shrink: 1;
     -webkit-flex-shrink: 1;
