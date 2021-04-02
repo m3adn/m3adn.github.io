@@ -795,7 +795,7 @@ table.alt tbody tr td {
 
 /* Testimonials */
 .testimonials {
-  margin: 2.5rem 0;
+  margin: auto;
   width: 100%;
   display: -moz-flex;
   display: -webkit-flex;
